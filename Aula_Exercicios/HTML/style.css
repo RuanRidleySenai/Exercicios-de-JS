@@ -1,0 +1,36 @@
+body{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(202, 201, 201);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 32px;
+}
+
+h1, h2{
+    color: aliceblue;
+    margin: 32px 0;
+}
+
+form{
+    min-width: 510px;
+    display: flex;
+    gap: 12px;
+}
+li{
+    color: aliceblue;
+}
+.input-error, 
+.input-error:focus{
+    border-color: #b20000;
+}
+
+button{
+    background-color: rgb(180, 143, 214);
+    border-radius: 10px;
+}
+
